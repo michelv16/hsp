@@ -1,0 +1,7 @@
+menu "dht22"
+
+config DHT22_ERROR_ABORT
+bool "Call abort() on all errors"
+default y
+
+endmenu
